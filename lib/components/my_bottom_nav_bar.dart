@@ -41,7 +41,7 @@ class MyBottomNavBar extends StatelessWidget {
           ),
           Spacer(),
           IconButton(
-            icon: Icon(Icons.favorite_border, color: kPrimaryColor),
+            icon: Icon(Icons.account_circle_rounded, color: kPrimaryColor),
             onPressed: () {},
           ),
         ],

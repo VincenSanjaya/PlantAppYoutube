@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const DetailsScreen(),
+      home: const HomeScreen(),
     );
   }
 }

@@ -65,6 +65,7 @@ flutter:
   assets:
     - assets/sepatu-1.png
     - assets/nike_lebron_19.jpg
+    - assets/nike_lebron_19_vertical.jpg
     - assets/nike_lebron_18.jpg
     - assets/drop.png
     - assets/shoe.png

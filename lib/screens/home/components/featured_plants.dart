@@ -18,7 +18,11 @@ class FeaturedPlants extends StatelessWidget {
             press: () {},
           ),
           FeaturedPlantCard(
-            image: "assets/sepatu-1.png",
+            image: "assets/nike_lebron_19.jpg",
+            press: () {},
+          ),
+          FeaturedPlantCard(
+            image: "assets/nike_lebron_18.jpg",
             press: () {},
           ),
         ],

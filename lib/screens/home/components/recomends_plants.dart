@@ -35,7 +35,7 @@ class RecomendsPlants extends StatelessWidget {
                   ));
             },
             image: "assets/nike_lebron_19.jpg",
-            title: "Nike Lebron 19",
+            title: "Lebron 19",
             country: "INDONESIA",
             price: 170,
           ),
@@ -47,8 +47,8 @@ class RecomendsPlants extends StatelessWidget {
                     builder: (context) => DetailsScreen(),
                   ));
             },
-            image: "assets/nike_lebron_18.png",
-            title: "Nike Lebron 18",
+            image: "assets/nike_lebron_18.jpg",
+            title: "Lebron 18",
             country: "INDONESIA",
             price: 200,
           ),
@@ -85,7 +85,13 @@ class RecomendPlantCard extends StatelessWidget {
         children: <Widget>[
           Image(image: AssetImage(image)),
           GestureDetector(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailsScreen(),
+                  ));
+            },
             child: Container(
               padding: EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
@@ -125,13 +131,6 @@ class RecomendPlantCard extends StatelessWidget {
                         .textTheme
                         .button
                         ?.copyWith(color: kPrimaryColor),
-                  ),
-                  IconButton(
-                    icon: Icon(
-                      Icons.favorite_border,
-                      color: kPrimaryColor,
-                    ),
-                    onPressed: () {},
                   ),
                 ],
               ),
